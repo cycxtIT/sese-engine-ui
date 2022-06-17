@@ -13,7 +13,7 @@ const { t } = useI18n()
 
 <template>
   <div class="flex flex-col justify-center items-center" h="full">
-    <img width="280" height="156" class="w-70 filter drop-shadow" m="-b-4" :src="/index.jpg" alt="ico">
+    <img width="280" height="156" class="w-70 filter drop-shadow" m="-b-4" :src="https://s1.328888.xyz/2022/06/17/0AgBi.jpg" alt="ico">
 
     <InputBox v-model="keyword" m="t-0 b-4" :enter="() => { enter(keyword) }" />
 
